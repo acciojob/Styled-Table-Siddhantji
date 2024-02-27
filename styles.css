@@ -1,1 +1,18 @@
 /* your code */
+table{
+	width:100%;
+	text-align:left;
+	border-spacing:0;
+}
+thead{
+	background-color:blue;
+	color:white;
+}
+td,th{
+	margin:0;
+	padding:0;
+}
+tbody tr:nth-child(even){
+	background-color:gray;
+}
+
